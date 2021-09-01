@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html  style="background-color: black;">
+<head>
+    <title> REPORT </title>
+        <link rel="icon" href="star.png">
+        
+<style>        
+        
+        body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("pic1.jpeg"); }
+.img2 { background-image: url("pic2.jpg"); }
+.img3 { background-image: url("pic3.jpeg"); }
+.img4 { background-image: url("pic4.jpeg"); }
+</style>
+        
+</head>
+
+
+<body style="background-color: black;">
+
+  <div style="padding-top:40px; color: #96cee7 ; text-align:center; font-family:monospace ; font-size: xx-large;">
+    <h1 style="color: #03aaf7 ;"> MAJOR PROJECT REPORT</h1>
+    </div>
+    <div style="color: white; padding: 200px; font-size: x-large; font-family:monospace ; padding-left: 300px; padding-right: 300px ; padding-top: 20px; text-align: left;">
+      
+      <h2 style="color: #72aac4 ;">Problem Statement</h2>  
+       <p>      
+        To find the association rules between the items using the Apriori Algorithm. Or in other words, you have to find out those items/itemset that customers bought together which helps the owner for store layout/marketing.
+        And then show the relative Sales of the data in Tableau Dashboard 
+      </p>
+      <br>
+
+      <h2 style="color: #96cee7 ;">Tools Used</h2>  
+        
+      <p>          
+        Python <br> Google Colab
+      </p>
+
+      <br>
+      
+      <h2 style="color: #96cee7 ;">Algorithms</h2>  
+        
+      <p>           
+        The algorithm used to find the association rules is Apriori Algorithm.
+        <br style="padding-left:10px">
+        <h3 style="padding-left:10px">Apriori Algorithms</h3>
+        <p style="padding-left:10px">
+          Apriori is an algorithm for frequent item set mining and association rule learning over relational databases. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets as long as those item sets appear sufficiently often in the database. The frequent item sets determined by Apriori can be used to determine association rules which highlight general trends in the database: this has applications in domains such as market basket analysis.
+        </p>
+        <h3 style="padding-left:10px">Association Rule Mining</h3>
+        <p style="padding-left:10px">
+          Association Rule Mining is used when you want to find an association between different objects in a set, find frequent patterns in a transaction database, relational databases or any other information repository. The applications of Association Rule Mining are found in Marketing, Basket Data Analysis (or Market Basket Analysis) in retailing, clustering and classification. It can tell you what items do customers frequently buy together by generating a set of rules called Association Rules.
+        </p>
+      </p>
+      <br>
+      <h2 style="color: #96cee7 ;">Approach</h2>  
+        
+      <p>          
+        The provided dataset had transactions labeled as weekend or weekdays. 
+We divided the dataset into two parts : Weekdays & Weekends.<br>
+And used Apriori Algorithm to train our model on both the datasets individually in order to find the association rules.
+
+      </p>
+      <br>
+      <h2 style="color: #96cee7 ;">Code Snippets</h2>  
+        
+      <p>  
+        <h3>Weekdays</h3>        
+        <img src = "wd_dataset.png" style="width: 900px;">
+        <img src = "rule_wd.png" style="width: 900px;">
+        <img src = "wd_rec.png" style="width: 900px;">
+        <br>
+        <br>
+        <h3>Weekends</h3>
+        <img src = "we_dataset.png" style="width: 900px;">
+        <img src = "rule_we.png" style="width: 900px;">
+        <img src = "we_rec.png" style="width: 900px;">
+      </p>
+    </div>
+    <div style="color: white; padding: 200px; font-size: x-large; font-family:monospace ; padding-left: 300px; padding-right: 300px ; padding-top: 20px; text-align: center;">
+      
+    </div>
+
+
+   
+   
+      
+   
+</body>
+</html>
